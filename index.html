@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="index.css">
+    
+    </head>
+    
+<body>  
+    <div class="gradient-border" id="box" >
+    <div class="container " id="box"><h1><b>Quote</b></h1>
+        <h1>
+            <i class="fas fa-quote-left"></i>
+            <span class="quote" id="quote"></span>
+            <i class="fas fa-quote-right"></i>    
+        </h1>
+    
+        <p class="author" id="author"></p>
+        <hr onMouseOver="this.style.color='red'"
+        onMouseOut="this.style.color='green'">
+        
+        <div class='buttons'>
+            <button class="next" onclick="getNewQuote()">Next Quote</button>
+        </div>
+        
+    </div>  
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
