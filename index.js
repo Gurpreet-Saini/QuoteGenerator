@@ -14,7 +14,7 @@ const getNewQuote= async()=>
     
     const auth=allQuotes[indx].author;
     
-    if(auth=="null"){
+    if(auth==="null"){
         author.innerHTML="Anonymous";
     }
     
